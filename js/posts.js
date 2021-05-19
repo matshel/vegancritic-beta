@@ -34,8 +34,8 @@ function createHTML(posts) {
     posts.forEach(function(post) {
         postsContainer.innerHTML +=`
             <div class="post">
-                <div class="post-img"><img src="${post.acf.image_preview}" alt="" data-original="${post.acf.image_original}"></div>
-                <h2>Score : ${post.acf.score} / 5</h2>
+                <div class="post-img"><img src="${post.acf.image_preview}" alt="${post.acf.title}" </div>
+                <h2 class="score"><span>${post.acf.stars}</span></h2>
                 <h2>${post.acf.title}</h2>
                 
                 <a href="details.html?id=${post.id}"><button class="view-more">View more</button></a> 

@@ -1,6 +1,6 @@
 const buttonPrevious = document.querySelector("#button-previous");
 const buttonNext = document.querySelector("#button-next");
-const postsContainer = document.querySelector(".blog-items");
+const postsContainer = document.querySelector(".blog-latest");
 
 const apiUrl = "https://matshel.dev/vegancritic-api/wp-json/acf/v3/posts";
 // const corsEnabledUrl = "https://noroffcors.herokuapp.com/" + url;
@@ -61,7 +61,7 @@ function createHTML(posts) {
         postsContainer.innerHTML +=`
             <div class="post">
                 <div class="posts-img"><img src="${post.acf.image_preview}" alt="" data-original="${post.acf.image_original}"></div>
-                <h2>Score : ${post.acf.score} / 5</h2>
+                <h2 class="score"><span>${post.acf.stars}</span></h2>
                 <h2>${post.acf.title}</h2>
                 <div class="container-button"> <a href="details.html?id=${post.id}"><button class="view-more">View more</button></a></div>
             </div>

@@ -65,22 +65,19 @@ function createHTML(post) {
 
         detailContainer.innerHTML +=`
             <div class="posts">
-              <h2 class="title">${post.acf.title}</h2>
-              
-              <div class ="image-test"><div class="post-img"><img id="detailsImg" src="${post.acf.image_preview}" alt="${post.acf.title}" ></div></div>
-              <h3 class="score">Score : ${post.acf.score} / 5</h3>
-              <h3 class="place"><span class="at">@ </span>${post.acf.place}</h3>
-              <p>${post.acf.information}</p>
-              
-
-            <div class="info-image">
-                <img src="images/woman-238553_1280.jpg" alt="Round profile picture of Eva Normann" />
+                <h2 class="title">${post.acf.title}</h2>
+                <div class ="image-test"><div class="post-img"><img id="detailsImg" src="${post.acf.image_preview}" alt="${post.acf.title}" ></div></div>
+                <h3 class="score"><span>${post.acf.stars}</span></h3>
+                <h3 class="place">${post.acf.place}</h3>
+                <p>${post.acf.information}</p>
+                <div class="info-image">
+                  <img src="images/woman-238553_1280.jpg" alt="Round profile picture of Eva Normann" />
                   <div class="info-image-info">
-                  <span class="info-image-name">Eva Normann</span>
-                  <span class="info-image-date">${post.acf.date}</span>
+                      <span class="info-image-name">Eva Normann</span>
+                      <span class="info-image-date">${post.acf.date}</span>
+                  </div>
                 </div>
-            </div>
-          </div>`;     
+            </div>`;     
 }
 
 

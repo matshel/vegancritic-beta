@@ -12,29 +12,16 @@
         />
         <link rel="stylesheet" href="css/style.css" />
         <link rel="stylesheet" href="css/index.css" />
+
         <title>Home | Vegan Critic</title>
-        <!-- Hotjar Tracking Code for https://vegancritic-beta.netlify.app -->
-        <script>
-            (function (h, o, t, j, a, r) {
-                h.hj =
-                    h.hj ||
-                    function () {
-                        (h.hj.q = h.hj.q || []).push(arguments);
-                    };
-                h._hjSettings = { hjid: 2409883, hjsv: 6 };
-                a = o.getElementsByTagName("head")[0];
-                r = o.createElement("script");
-                r.async = 1;
-                r.src = t + h._hjSettings.hjid + j + h._hjSettings.hjsv;
-                a.appendChild(r);
-            })(window, document, "https://static.hotjar.com/c/hotjar-", ".js?sv=");
-        </script>
     </head>
     <body>
         <!-- navigation -->
         <nav>
             <div class="container-nav">
-                <a href="index.html"><span class="logo">VeganCritic</span></a>
+                <div class="logo">
+                    <a href="index.html">vegancritic</a>
+                </div>
                 <div class="space"></div>
                 <ul class="nav-links">
                     <li><a href="index.html">Home</a></li>
@@ -50,7 +37,6 @@
             </div>
         </nav>
         <!-- navigation end -->
-
         <!-- hero section -->
         <section class="hero">
             <div class="hero-container">
@@ -71,9 +57,7 @@
                 </div>
             </div>
         </section>
-
         <!-- free guide -->
-
         <div class="free-guide-container">
             <h3 class="free-guide-header">Get My <span>Free</span> Guide Today!</h3>
             <form id="guideForm">
@@ -85,35 +69,21 @@
                     <input type="text" id="guideEmail" name="guideEmail" placeholder="Your email*" />
                     <div class="form-error" id="guideEmailError">Please enter a valid email address</div>
                 </div>
-
                 <button class="free-guide-button">Get it</button>
             </form>
         </div>
-
         <!-- free guide end -->
-
         <!-- hero section end -->
-
-        <!-- blog section -->
-
+        <!-- blog post carousel  -->
         <div class="blog-latest">
-            <div class="blog-posts">
-                <!-- items -->
-                <div class="blog-items">
-                    <div class="loader-container"><div class="loader"></div></div>
-                </div>
-                <!-- end of items -->
-            </div>
-            <div class="post-arrows">
-                <button id="button-previous"><i class="fas fa-chevron-left fa-2x"></i></button>
-                <button id="button-next"><i class="fas fa-chevron-right fa-2x"></i></button>
-            </div>
+            <div class="loader-container"><div class="loader"></div></div>
         </div>
-
-        <!-- blog section end-->
-
+        <div class="post-arrows">
+            <button id="button-previous"><i class="fas fa-chevron-left fa-2x"></i></button>
+            <button id="button-next"><i class="fas fa-chevron-right fa-2x"></i></button>
+        </div>
+        <!-- blog post carousel end-->
         <!-- footer -->
-
         <footer>
             <div class="footer-container">
                 <h3>Social Media</h3>
@@ -125,9 +95,7 @@
                 <h3>&copy; 2021 Vegancritic - Eva Normann</h3>
             </div>
         </footer>
-
         <!-- footer end -->
-
         <script src="js/navSlider.js"></script>
         <script src="js/index.js"></script>
         <script src="js/freeGuide.js"></script>
