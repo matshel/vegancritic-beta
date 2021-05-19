@@ -1,0 +1,226 @@
+/* hero area */
+
+.hero {
+    width: 100vw;
+    height: 50vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("/images/pexels-ella-olsson-1640770.jpg");
+    color: var(--dark);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: 0 auto;
+    display: grid;
+    place-items: center;
+}
+
+.info-box {
+    background: #f9f9f9;
+    background: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    max-width: 500px;
+    border-radius: 20px;
+}
+
+.info-header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 2.5rem;
+    line-height: 1.1;
+}
+
+.info-header img {
+    width: 110px;
+    height: 70px;
+    padding: 0 7px;
+}
+
+.info-paragraph {
+    max-width: 300px;
+    margin: 10px 0;
+    font-family: var(--roboto);
+}
+
+.info-image {
+    display: flex;
+    margin-top: 10px;
+    font-family: var(--quicksand);
+}
+
+.info-image img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 2px solid var(--dark);
+    margin: 10px 0;
+}
+
+.info-image-info {
+    background: rgba(237, 182, 84);
+    display: flex;
+    flex-direction: column;
+    margin: 10px 10px;
+    padding: 2px 20px;
+    /* box-shadow: 3px 3px 3px 0px rgba(0, 0, 0, 0.58); */
+}
+
+/* hero area end */
+
+/* free guide */
+
+.free-guide-container {
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0;
+    background: #f8f8ff;
+    justify-content: center;
+    align-items: center;
+}
+
+.free-guide-container form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 5px;
+}
+
+#guideForm {
+    height: fit-content;
+}
+
+.free-guide-header {
+    font-family: var(--playfair);
+    margin: 10px 0;
+    text-align: center;
+}
+
+.free-guide-header span {
+    text-decoration: underline;
+}
+
+.free-guide-container input {
+    width: 268px;
+    height: 50px;
+    margin-bottom: 25px;
+    padding-left: 10px;
+    background: rgb(230, 230, 227);
+    border: none;
+    font-size: 0.9rem;
+    /* box-shadow: 4px 4px 5px 0px rgba(0, 0, 0, 0.5); */
+}
+
+.free-guide-button {
+    width: 270px;
+    height: 50px;
+    border-radius: 20px;
+    background: #feff89;
+    border: none;
+    text-transform: uppercase;
+    font-family: var(--playfair);
+    font-size: 1rem;
+    font-weight: 600;
+    box-shadow: 3px 3px 3px 0px rgba(0, 0, 0, 0.58);
+    cursor: pointer;
+    margin: 10px;
+}
+
+.input-name,
+.input-email {
+    display: block;
+    margin: 0;
+}
+
+#guideName {
+    margin: 10px 10px 0 10px;
+}
+
+#guideEmail {
+    margin: 10px 10px 0 10px;
+}
+
+/* free guide end */
+
+/* latest blog posts */
+
+.blog-posts {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;
+    margin: 2rem 0;
+    max-width: 1400px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    padding: 0 0.7rem;
+}
+
+.blog-items {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    max-width: 500px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.post-arrows {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.post-arrows i {
+    background: var(--dark);
+    color: #f8f8ff;
+    padding: 1rem;
+}
+
+#button-previous,
+#button-next {
+    border: none;
+    margin: 5px 5px;
+}
+
+/* latest blog posts end */
+
+@media screen and (min-width: 1200px) {
+    .free-guide-container {
+        flex-direction: row;
+    }
+
+    /* .free-guide-header {
+        margin-right: 10px;
+    } */
+
+    .free-guide-container form {
+        flex-direction: row;
+    }
+
+    .free-guide-container input {
+        margin-right: 10px;
+        margin-bottom: 0;
+    }
+
+    #guideEmail,
+    #guideName {
+        margin-top: 0;
+    }
+}
+
+@media screen and (min-width: 850px) {
+    .blog-items {
+        flex-direction: row;
+        flex-wrap: wrap;
+
+        gap: 0.3rem;
+        max-width: 745px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .blog-items {
+        gap: 0.3rem;
+        max-width: 1200px;
+    }
+}

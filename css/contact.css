@@ -1,0 +1,110 @@
+.contact-container {
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    max-width: 100%;
+    background-image: url("/images/pexels-ella-olsson-1640772.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* background-size: 600px 1000px; */
+    margin: 0px auto;
+    /* box-shadow: 10px 29px 25px rgba(0, 0, 0, 0.58); */
+}
+
+.contact-form-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 630px;
+    width: 700px;
+    background: #fff;
+    margin: 0 auto;
+    box-shadow: 10px 10px 25px 7px rgba(0, 0, 0, 0.58);
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.99)),
+        url("/images/pexels-ella-olsson-1640772.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+}
+
+.contact-form {
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.contact-form h1 {
+    margin: 20px 0;
+    overflow: hidden;
+}
+
+.contact-form form {
+    height: 100%;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-form input {
+    width: 300px;
+    height: 40px;
+    padding-left: 10px;
+    background: rgb(230, 230, 227);
+    border: none;
+    font-size: 0.9rem;
+    box-shadow: 4px 4px 5px 0px rgba(0, 0, 0, 0.5);
+    margin-top: 10px;
+}
+
+.contact-form textarea {
+    background: rgb(230, 230, 227);
+    border: none;
+    width: 300px;
+    height: 200px;
+    padding-left: 10px;
+    padding-top: 10px;
+    margin-top: 10px;
+    /* box-shadow: 4px 4px 5px 0px rgba(0, 0, 0, 0.5); */
+}
+
+.contact-button {
+    display: grid;
+    place-self: center;
+    align-items: center;
+    width: 300px;
+    height: 40px;
+    margin-top: 10px;
+    background: #0da574;
+    color: #fff;
+    border: none;
+    text-transform: uppercase;
+    font-weight: 600;
+    box-shadow: 4px 4px 5px 0px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+}
+
+.contact-form .message {
+    background: #0da574;
+    padding: 1em;
+    width: 300px;
+    /* margin-bottom: 10px; */
+    color: #fff;
+}
+
+.form-error {
+    display: none;
+    color: red;
+    font-size: 0.9rem;
+    text-align: left;
+    margin: 0.125rem 0;
+    padding-left: 10px;
+}
+
+footer {
+    margin: 0;
+}

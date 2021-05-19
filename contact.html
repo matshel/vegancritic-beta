@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link
+            rel="stylesheet"
+            href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
+            integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk"
+            crossorigin="anonymous"
+        />
+        <link rel="stylesheet" href="css/style.css" />
+        <link rel="stylesheet" href="css/contact.css" />
+        <title>Contact | Vegan Critic</title>
+    </head>
+    <body>
+        <!-- navigation -->
+        <nav>
+            <div class="container-nav">
+                <a href="index.html"><span class="logo">VeganCritic</span></a>
+                <div class="space"></div>
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="posts.html">Posts</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+                <div class="burger">
+                    <div class="line1"></div>
+                    <div class="line2"></div>
+                    <div class="line3"></div>
+                </div>
+            </div>
+        </nav>
+        <!-- navigation end -->
+        <div class="contact-container">
+            <div class="contact-form-container">
+                <div class="contact-form">
+                    <h1 class="h1-contact">Contact Us</h1>
+                    <div id="message"></div>
+                    <form id="contactForm">
+                        <div>
+                            <label>
+                                <input name="contactName" id="contactName" placeholder="Full Name" />
+                            </label>
+                            <div class="form-error" id="contactNameError">Please enter your name (minimum 5 characters)</div>
+                        </div>
+
+                        <div>
+                            <label>
+                                <input name="email" id="email" placeholder="Email" />
+                            </label>
+                            <div class="form-error" id="emailError">Please enter a valid email address</div>
+                        </div>
+
+                        <div>
+                            <label>
+                                <input name="subject" id="subject" placeholder="Subject" />
+                            </label>
+                            <div class="form-error" id="subjectError">Subject must have minimum 15 characters</div>
+                        </div>
+
+                        <div>
+                            <label>
+                                <textarea name="contentMessage" id="contentMessage" placeholder=" Write your message here"> </textarea>
+                            </label>
+                            <div class="form-error" id="contentMessageError">Message must have minimum 25 characters</div>
+                        </div>
+                        <button class="contact-button">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <footer>
+            <div class="footer-container">
+                <h3>Social Media</h3>
+                <span>
+                    <a href="#"><i class="fab fa-instagram fa-2x"></i></a>
+                    <a href="#"><i class="fab fa-facebook fa-2x"></i></a>
+                    <a href="#"><i class="fab fa-twitter fa-2x"></i></a>
+                </span>
+                <h3>&copy; 2021 Vegancritic - Eva Normann</h3>
+            </div>
+        </footer>
+
+        <script src="js/contact.js"></script>
+        <script src="js/navSlider.js"></script>
+    </body>
+</html>

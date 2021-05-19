@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link
+            rel="stylesheet"
+            href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
+            integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk"
+            crossorigin="anonymous"
+        />
+        <link rel="stylesheet" href="css/style.css" />
+        <link rel="stylesheet" href="css/index.css" />
+
+        <title>Home | Vegan Critic</title>
+    </head>
+    <body>
+        <!-- navigation -->
+        <nav>
+            <div class="container-nav">
+                <a href="index.html"><span class="logo">VeganCritic</span></a>
+                <div class="space"></div>
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="posts.html">Posts</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+                <div class="burger">
+                    <div class="line1"></div>
+                    <div class="line2"></div>
+                    <div class="line3"></div>
+                </div>
+            </div>
+        </nav>
+        <!-- navigation end -->
+
+        <!-- hero section -->
+        <section class="hero">
+            <div class="hero-container">
+                <div class="info-box">
+                    <h1 class="info-header">
+                        Your <span><img src="/images/web_optimized/Asset 3.svg" alt="Written vegan with cool font" /></span> Source
+                    </h1>
+                    <p class="info-paragraph">
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illo architecto magnam earum cumque.
+                    </p>
+                    <div class="info-image">
+                        <img src="images/woman-238553_1280.jpg" alt="Round profile picture of Eva Normann" />
+                        <div class="info-image-info">
+                            <span class="info-image-name">Eva Normann</span>
+                            <span class="info-image-date">April 20, 2019</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- free guide -->
+
+        <div class="free-guide-container">
+            <h3 class="free-guide-header">Get My <span>Free</span> Guide Today!</h3>
+            <form id="guideForm">
+                <div class="input-name">
+                    <input type="text" id="guideName" name="guideName" placeholder="Your name*" />
+                    <div class="form-error" id="guideNameError">Minimum 5 characters</div>
+                </div>
+                <div class="input-email">
+                    <input type="text" id="guideEmail" name="guideEmail" placeholder="Your email*" />
+                    <div class="form-error" id="guideEmailError">Please enter a valid email address</div>
+                </div>
+
+                <button class="free-guide-button">Get it</button>
+            </form>
+        </div>
+
+        <!-- free guide end -->
+
+        <!-- hero section end -->
+
+        <!-- blog section -->
+
+        <div class="blog-latest">
+            <div class="blog-posts">
+                <!-- items -->
+                <div class="blog-items">
+                    <div class="loader-container"><div class="loader"></div></div>
+                </div>
+                <!-- end of items -->
+            </div>
+            <div class="post-arrows">
+                <button id="button-previous"><i class="fas fa-chevron-left fa-2x"></i></button>
+                <button id="button-next"><i class="fas fa-chevron-right fa-2x"></i></button>
+            </div>
+        </div>
+
+        <!-- blog section end-->
+
+        <!-- footer -->
+
+        <footer>
+            <div class="footer-container">
+                <h3>Social Media</h3>
+                <div>
+                    <a href="#"><i class="fab fa-instagram fa-2x"></i></a>
+                    <a href="#"><i class="fab fa-facebook fa-2x"></i></a>
+                    <a href="#"><i class="fab fa-twitter fa-2x"></i></a>
+                </div>
+                <h3>&copy; 2021 Vegancritic - Eva Normann</h3>
+            </div>
+        </footer>
+
+        <!-- footer end -->
+
+        <script src="js/navSlider.js"></script>
+        <script src="js/index.js"></script>
+        <script src="js/freeGuide.js"></script>
+    </body>
+</html>
