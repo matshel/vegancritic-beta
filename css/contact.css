@@ -81,8 +81,8 @@
     width: 300px;
     height: 40px;
     margin-top: 10px;
-    background: #0da574;
-    color: #fff;
+    background: rgba(237, 182, 84);
+    color: #3c393d;
     border: none;
     text-transform: uppercase;
     font-size: 1.1rem;
@@ -92,20 +92,20 @@
 }
 
 .contact-button:hover {
-    background: #176e53;
+    background: rgb(214, 159, 64);
 }
 
 #message {
     display: grid;
     place-items: center;
-    background: #0da574;
+    background: rgba(237, 182, 84);
     width: 300px;
     height: fit-content;
     overflow: hidden;
 }
 
 .message {
-    color: #fff;
+    color: #3c393d;
     border: none;
     font-size: 1.1rem;
 }
