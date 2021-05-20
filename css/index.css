@@ -48,8 +48,7 @@
 }
 
 .info-image img {
-    width: 50px;
-    height: 50px;
+    width: 10%;
     border-radius: 50%;
     border: 2px solid var(--dark);
     margin: 10px 0;
