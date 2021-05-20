@@ -14,16 +14,19 @@
 }
 
 .info-box {
+    display: grid;
+    place-items: center;
     background: #f9f9f9;
     background: rgba(255, 255, 255, 0.8);
     padding: 20px;
-    max-width: 500px;
+    width: fit-content;
+    max-width: 380px;
     border-radius: 20px;
 }
 
 .info-header {
     display: flex;
-    justify-content: space-around;
+    /* justify-content: space-around; */
     align-items: center;
     font-size: 2.5rem;
     line-height: 1.1;
