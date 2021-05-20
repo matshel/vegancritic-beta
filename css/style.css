@@ -204,8 +204,8 @@ h2 {
 .view-more {
     margin: 30px auto;
     padding: 7px;
-    width: 200px;
-    height: 40px;
+    width: 300px;
+    height: 50px;
     background: rgba(237, 182, 84);
     border: none;
     color: #2b2b2b;
@@ -219,7 +219,7 @@ h2 {
 }
 
 .view-more:hover {
-    color: #505050;
+    background: rgb(214, 159, 64);
 }
 
 .container-button {

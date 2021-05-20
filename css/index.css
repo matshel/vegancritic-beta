@@ -187,6 +187,7 @@
     background: var(--dark);
     color: #f8f8ff;
     padding: 1rem;
+    cursor: pointer;
 }
 
 #button-previous,

@@ -51,9 +51,9 @@
 
 #button-toggle-posts {
     text-align: center;
-    width: 200px;
-    height: 40px;
-    margin-bottom: 30px;
+    width: 300px;
+    height: 50px;
+    margin: 30px;
     text-transform: uppercase;
     font-weight: 800;
     color: white;
