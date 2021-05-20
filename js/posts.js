@@ -37,7 +37,7 @@ function createHTML(posts) {
                 <h2 class="score"><span>${post.acf.stars}</span></h2>
                 <h2>${post.acf.title}</h2>
                 
-                <a href="details.html?id=${post.id}"><button class="view-more">View more</button></a> 
+                <a href="details.html?id=${post.id}"><button class="view-more" aria-label="View more">View more</button></a> 
             </div>
         `
     });

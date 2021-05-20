@@ -62,7 +62,7 @@ function createHTML(posts) {
                 <div class="posts-img"><img src="${post.acf.image_preview}" alt="" data-original="${post.acf.image_original}"></div>
                 <h2 class="score"><span>${post.acf.stars}</span></h2>
                 <h2>${post.acf.title}</h2>
-                <div class="container-button"> <a href="details.html?id=${post.id}"><button class="view-more">View more</button></a></div>
+                <div class="container-button" aria-label="View more"> <a href="details.html?id=${post.id}"><button class="view-more">View more</button></a></div>
             </div>
         `
     });
