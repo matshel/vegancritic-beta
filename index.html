@@ -24,7 +24,7 @@
                 </div>
                 <div class="space"></div>
                 <ul class="nav-links">
-                    <li><a href="index.html">Home</a></li>
+                    <li class="this-page"><a href="index.html">Home</a></li>
                     <li><a href="posts.html">Posts</a></li>
                     <li><a href="about.html">About</a></li>
                     <li><a href="contact.html">Contact</a></li>
@@ -62,12 +62,12 @@
             <h3 class="free-guide-header">Get My <span>Free</span> Guide Today!</h3>
             <form id="guideForm">
                 <div class="input-name">
-                    <input type="text" id="guideName" name="guideName" placeholder="Your name*" />
-                    <div class="form-error" id="guideNameError">Minimum 5 characters</div>
+                    <input type="text" id="guideName" name="guideName" aria-label="Name" placeholder="Your name*" />
+                    <div class="form-error" id="guideNameError">Minimum 5 characters*</div>
                 </div>
                 <div class="input-email">
-                    <input type="text" id="guideEmail" name="guideEmail" placeholder="Your email*" />
-                    <div class="form-error" id="guideEmailError">Please enter a valid email address</div>
+                    <input type="text" id="guideEmail" name="guideEmail" aria-label="Email" placeholder="Your email*" />
+                    <div class="form-error" id="guideEmailError">Please enter a valid email address*</div>
                 </div>
                 <button class="free-guide-button">Get it</button>
             </form>

@@ -24,7 +24,8 @@
     min-width: fit-content;
     height: fit-content;
     border: none;
-    background: none;
+    /* background: none; */
+    margin: 0 7px;
 }
 
 .posts p {
@@ -34,50 +35,39 @@
     margin: 20px 0;
 }
 
-.posts .title {
+.title {
     margin: 20px 0;
     font-size: 3rem;
 }
 
-.posts .score,
-.posts .place {
+.score {
     font-size: 2rem;
     margin: 20px 0;
 }
+
+.place {
+    margin-top: 0;
+    padding-top: 0;
+}
+
+/* .score {
+    margin: 500px 0;
+} */
 
 .score span {
     color: rgba(237, 182, 84);
 }
 
+.score span i {
+    margin-bottom: 5px;
+    margin-right: 4px;
+}
+
 .posts img {
     width: 100%;
     height: 100%;
+    /* border-radius: 20px; */
 }
-
-/* .images {
-    display: grid;
-    grid-template-columns: 150px 150px;
-    grid-template-rows: 150px 150px 150px 150px;
-    overflow-y: hidden;
-} */
-
-/* .instagram {
-    background: #888;
-    width: 100%;
-    padding: 10px;
-} */
-
-/* .instagram .images img {
-    width: 100%;
-} */
-
-/* .instagram h2 {
-    margin: 40px 0;
-} */
-
-/* .absolute {
-    width: 400px;
-} */
 
 /* modal test */
 
@@ -130,7 +120,7 @@
     justify-content: center;
     /* width: 100vh; */
 
-    /* overflow-y: hidden; */
+    overflow-x: scroll;
 }
 
 .modal-image {
@@ -152,6 +142,16 @@
     }
 }
 
+@media screen and (min-width: 1200px) {
+    .close {
+        display: none;
+    }
+
+    .img-modal {
+        overflow-x: none;
+    }
+}
+
 .info-image {
     display: flex;
     margin-top: 20px;
@@ -163,18 +163,14 @@
     height: 50px;
     border-radius: 50%;
     border: 2px solid var(--dark);
-    margin: 10px 0;
+    margin: 20px 0;
 }
 
 .info-image-info {
     background: rgba(237, 182, 84);
     display: flex;
     flex-direction: column;
-    margin: 10px 10px;
+    margin: 20px 10px;
     padding: 2px 20px;
     /* box-shadow: 3px 3px 3px 0px rgba(0, 0, 0, 0.58); */
-}
-
-.at {
-    color: rgb(20, 194, 20);
 }

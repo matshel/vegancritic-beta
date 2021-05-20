@@ -16,7 +16,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 630px;
+    height: 680px;
     width: 700px;
     background: #fff;
     margin: 0 auto;
@@ -39,7 +39,7 @@
 }
 
 .contact-form h1 {
-    margin: 20px 0;
+    margin: 40px 0;
     overflow: hidden;
 }
 
@@ -57,8 +57,9 @@
     background: rgb(230, 230, 227);
     border: none;
     font-size: 0.9rem;
-    box-shadow: 4px 4px 5px 0px rgba(0, 0, 0, 0.5);
+    /* box-shadow: 4px 4px 5px 0px rgba(0, 0, 0, 0.5); */
     margin-top: 10px;
+    font-size: 1.1rem;
 }
 
 .contact-form textarea {
@@ -69,6 +70,7 @@
     padding-left: 10px;
     padding-top: 10px;
     margin-top: 10px;
+    font-size: 1.1rem;
     /* box-shadow: 4px 4px 5px 0px rgba(0, 0, 0, 0.5); */
 }
 
@@ -83,17 +85,29 @@
     color: #fff;
     border: none;
     text-transform: uppercase;
+    font-size: 1.1rem;
     font-weight: 600;
     box-shadow: 4px 4px 5px 0px rgba(0, 0, 0, 0.5);
     cursor: pointer;
 }
 
-.contact-form .message {
+.contact-button:hover {
+    background: #176e53;
+}
+
+#message {
+    display: grid;
+    place-items: center;
     background: #0da574;
-    padding: 1em;
     width: 300px;
-    /* margin-bottom: 10px; */
+    height: fit-content;
+    overflow: hidden;
+}
+
+.message {
     color: #fff;
+    border: none;
+    font-size: 1.1rem;
 }
 
 .form-error {

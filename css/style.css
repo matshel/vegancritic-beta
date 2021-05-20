@@ -45,7 +45,12 @@ a {
 
 h2 {
     font-family: var(--playfair);
+    font-size: 2rem;
 }
+
+/* h3 {
+    font-size: 2.5rem;
+} */
 
 /* navigation */
 
@@ -94,8 +99,13 @@ h2 {
     z-index: 99;
 }
 
+.this-page {
+    text-decoration: underline 2px solid rgb(17, 194, 17);
+}
+
 .nav-links a:hover {
     color: #505050;
+    text-decoration: underline;
 }
 
 .space {
@@ -333,13 +343,13 @@ footer {
 
 /* media queries end */
 
-.contact-form .message {
+/* .contact-form .message {
     background: #0da574;
     padding: 1em;
     width: 300px;
-    /* margin-bottom: 10px; */
+    margin-bottom: 10px;
     color: #fff;
-}
+} */
 
 .form-error {
     display: none;

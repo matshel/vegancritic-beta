@@ -3,7 +3,6 @@ const buttonNext = document.querySelector("#button-next");
 const postsContainer = document.querySelector(".blog-latest");
 
 const apiUrl = "https://matshel.dev/vegancritic-api/wp-json/acf/v3/posts";
-// const corsEnabledUrl = "https://noroffcors.herokuapp.com/" + url;
 
 let length = 3;
 let offset = 0;
