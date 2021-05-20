@@ -13,6 +13,10 @@
     place-items: center;
 }
 
+.hero-container {
+    margin: 0 10px;
+}
+
 .info-box {
     display: grid;
     place-items: center;
@@ -171,7 +175,7 @@
     margin: 5px 5px;
 }
 
-#button-previous,
+#button-previous i:hover,
 #button-next i:hover {
     background: var(--exdark);
 }

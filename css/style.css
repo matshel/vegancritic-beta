@@ -1,6 +1,8 @@
+/* imports */
 @import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700;800;900&family=Quicksand:wght@300;400;500;600;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 
+/* variables */
 :root {
     --playfair: "Playfair Display", serif;
     --quicksand: "Quicksand", sans-serif;
@@ -9,6 +11,7 @@
     --exdark: #2b2b2b;
 }
 
+/* resets */
 * {
     padding: 0;
     margin: 0;
@@ -17,19 +20,26 @@
     overflow-x: hidden;
 }
 
-html {
-    background: #f8f8ff;
-    overflow-x: hidden;
+/* wrapper to eliminate scrolling on X axis on mobile */
+.wrapper {
+    position: relative;
 }
 
-nav {
+/* various */
+html {
     background: #f8f8ff;
-    overflow-x: hidden;
 }
 
 body {
     line-height: 1.4;
     color: var(--dark);
+    position: relative; /* removes X-axis scrolling on mobile */
+    overflow-x: hidden;
+}
+
+nav {
+    background: #f8f8ff;
+    /* overflow-x: hidden; */
 }
 
 a {
@@ -46,12 +56,7 @@ h2 {
     font-size: 2rem;
 }
 
-/* h3 {
-    font-size: 2.5rem;
-} */
-
 /* navigation */
-
 .container-nav {
     display: flex;
     align-items: center;
@@ -131,6 +136,7 @@ h2 {
     display: block;
     cursor: pointer;
     margin-right: 10px;
+    outline: none;
 }
 
 .burger div {
@@ -167,7 +173,6 @@ h2 {
 .spin .line3 {
     transform: rotate(45deg) translate(-5px, -6px);
 }
-
 /* navigation end */
 
 .post {
@@ -203,6 +208,7 @@ h2 {
     place-items: center;
     text-transform: uppercase;
     cursor: pointer;
+    outline: none;
     box-shadow: 3px 3px 3px 0px rgba(0, 0, 0, 0.58);
 }
 
@@ -217,6 +223,7 @@ h2 {
 
 .container-button a {
     cursor: pointer;
+    outline: none;
 }
 
 /* Loader */
@@ -277,12 +284,9 @@ footer {
     place-content: center;
     height: 220px;
     background: #e2e2e2;
-    /* margin-top: 50px; */
-    /* margin-bottom: 0; */
-    /* padding-bottom: 0; */
     background-image: url("/images/web_optimized/Asset\ 3.svg");
     background-repeat: no-repeat;
-    background-size: 120px 120px;
+    background-size: 100px 100px;
     background-position: 10% 1%;
 }
 
