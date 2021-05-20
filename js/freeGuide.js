@@ -25,7 +25,7 @@ function validateForm(event) {
     if (checkLength(guideName.value, 4) === true && validateEmail(guideEmail.value) === true) {
         submitForm(event);
     } else {
-        sentMessage.innerHTML = "Get it"; // resets last successful sent msg if form is submitted once more while sent msg is still showing
+        sentMessage.innerText = "Get it"; // resets last successful sent msg if form is submitted once more while sent msg is still showing
     }
 }
 
@@ -38,7 +38,7 @@ form.addEventListener("submit", validateForm);
 function submitForm(event) {
     event.preventDefault();
     // display a message once the form has been submitted
-    sentMessage.innerHTML = '<div class="message">Sent!</div>';
+    sentMessage.innerText = 'Sent!';
     // clear all input values
     form.reset();
 }
