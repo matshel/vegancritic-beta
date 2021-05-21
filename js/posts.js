@@ -1,7 +1,7 @@
 const postsContainer = document.querySelector(".posts-container");
 const togglePosts = document.querySelector("#button-toggle-posts");
 
-// const apiUrl = "https://matshel.dev/vegancritic-api/wp-json/acf/v3/posts";
+const apiUrl = "https://matshel.dev/vegancritic-api/wp-json/acf/v3/posts";
 
 let length = 10;
 
