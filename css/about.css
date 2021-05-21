@@ -1,9 +1,10 @@
 .hero-about {
     height: 50vh;
-    /* background-image: url("/images/pexels-ella-olsson-1640772.jpg"); */
     background-size: cover;
     background-repeat: no-repeat;
     background-image: url("/images/pexels-alesia-kozik-7342197.jpg");
+    display: grid;
+    place-items: center;
 }
 
 .about-container {
@@ -17,40 +18,61 @@
 .about-container-info {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
+    /* text-align: left; */
     /* height: 100vh; */
     width: 700px;
     /* max-width: 900px; */
     /* min-width: 414px; */
-    background: #fff;
+    background: #f8f8ff;
     margin: 0 auto;
-    margin-top: 80px;
-    margin-bottom: 80px;
-    box-shadow: 10px 29px 25px rgba(0, 0, 0, 0.3);
-    background-image: linear-gradient(to right, rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.99)),
-        url("/images/pexels-ella-olsson-1640772.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    border-radius: 20px;
+    margin-top: 70px;
+    margin-bottom: 70px;
+    padding: 0 7px;
+
+    /* box-shadow: 10px 29px 25px rgba(0, 0, 0, 0.3); */
+    /* background-image: linear-gradient(to right, rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.99)),
+        url("/images/pexels-ella-olsson-1640772.jpg"); */
+    /* background-size: cover; */
+    /* background-repeat: no-repeat; */
+    /* border-radius: 20px; */
     overflow-y: hidden;
 }
 
-.about-container h2 {
-    margin: 1em;
+/* .about-info h2 {
+    margin: 20px 7px;
+} */
+
+.about-info h2 {
+    margin: 20px 0;
 }
 
-.about-container p {
+.about-info h3 {
+    margin-top: 30px;
+}
+
+.about-info p {
+    line-height: 1.7;
+    font-size: 1.5rem;
+    margin: 10px 0;
+}
+
+/* .about-container p {
     max-width: 500px;
     padding: 0 1em 0 1em;
     margin-bottom: 1em;
     line-height: 1.7;
-}
+} */
 
 .go-vegan-image img {
+    margin-top: 40px;
+    /* padding: 0 7px; */
+    /* margin: 20px 0 10px 0; */
     width: 100%;
 }
 
-@media screen and (min-width: 550px) {
+/* @media screen and (min-width: 550px) {
     .go-vegan-image {
         width: 80%;
     }
@@ -60,4 +82,4 @@
     .go-vegan-image {
         width: 60%;
     }
-}
+} */
