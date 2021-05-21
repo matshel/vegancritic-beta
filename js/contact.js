@@ -52,7 +52,7 @@ form.addEventListener("submit", validateForm);
 function submitForm(event) {
     event.preventDefault();
     // display a message once the form has been submitted
-    sentMessage.innerHTML = '<div class="message">Your message has been sent!</div>';
+    sentMessage.innerHTML = '<div class="success">Your message has been sent!</div>';
     // clear all input values
     form.reset();
 }

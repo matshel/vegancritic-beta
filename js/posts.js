@@ -1,7 +1,7 @@
 const postsContainer = document.querySelector(".posts-container");
 const togglePosts = document.querySelector("#button-toggle-posts");
 
-const apiUrl = "https://matshel.dev/vegancritic-api/wp-json/acf/v3/posts";
+// const apiUrl = "https://matshel.dev/vegancritic-api/wp-json/acf/v3/posts";
 
 let length = 10;
 
@@ -21,6 +21,7 @@ async function fetchApi(url) {
 
     } catch (error) {
         console.log(error);
+        postsContainer.innerHTML = errorMessage("Oops! An error occurred while gathering the post");
     }
 }
 
@@ -36,10 +37,8 @@ function createHTML(posts) {
                 <div class="post-img"><img src="${post.acf.image_preview}" alt="${post.acf.title}" </div>
                 <h2 class="score"><span>${post.acf.stars}</span></h2>
                 <h2>${post.acf.title}</h2>
-                
                 <a href="details.html?id=${post.id}"><button class="view-more" aria-label="View more">View more</button></a> 
-            </div>
-        `
+            </div>`
     });
 }
 

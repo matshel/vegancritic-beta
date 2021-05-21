@@ -106,25 +106,27 @@
     overflow: hidden;
 }
 
-.message {
+.success {
     color: #3c393d;
     border: none;
     font-size: 1.1rem;
+    padding: 0.8em;
 }
 
-.form-error {
+/* .form-error {
     display: none;
     color: red;
     font-size: 0.9rem;
     text-align: left;
     margin: 0.125rem 0;
     padding-left: 10px;
-}
+} */
 
 footer {
     margin: 0;
 }
 
+/* media queries */
 @media screen and (min-width: 715px) {
     .contact-form-container {
         margin: 0 auto;
