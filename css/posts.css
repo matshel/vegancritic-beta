@@ -59,6 +59,12 @@
     color: white;
     background: rgb(22, 22, 22);
     border: none;
+    box-shadow: 1px 1px 1px 0px rgba(0, 0, 0, 0.58);
+    border-radius: 20px;
+}
+
+#button-toggle-posts:hover {
+    background: #221b1b;
 }
 
 /* media queries */

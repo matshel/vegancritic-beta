@@ -65,8 +65,11 @@
     background: rgba(237, 182, 84);
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
     margin: 10px 10px;
     padding: 2px 20px;
+    border-radius: 20px;
     /* box-shadow: 3px 3px 3px 0px rgba(0, 0, 0, 0.58); */
 }
 
@@ -120,15 +123,24 @@
     width: 270px;
     height: 50px;
     border-radius: 20px;
-    background: #feff89;
+    background: #fff44f;
+    /* background: rgb(61, 228, 61); */
     border: none;
     text-transform: uppercase;
     font-family: var(--playfair);
     font-size: 1rem;
     font-weight: 600;
-    box-shadow: 3px 3px 3px 0px rgba(0, 0, 0, 0.58);
+    box-shadow: 2px 2px 2px 0px rgba(0, 0, 0, 0.58);
+    /* box-shadow: 10px 11px 4px -7px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 10px 11px 4px -7px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 11px 4px -7px rgba(0, 0, 0, 0.75); */
     cursor: pointer;
     margin: 10px;
+}
+
+.free-guide-button:hover {
+    background: rgb(22, 22, 22);
+    color: #f8f8ff;
 }
 
 .input-name,
@@ -167,6 +179,7 @@
     color: #f8f8ff;
     padding: 1rem;
     cursor: pointer;
+    box-shadow: 1px 1px 1px 0px rgba(0, 0, 0, 0.58);
 }
 
 #button-previous,

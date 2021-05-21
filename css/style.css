@@ -20,11 +20,6 @@
     overflow-x: hidden;
 }
 
-/* wrapper to eliminate scrolling on X axis on mobile */
-.wrapper {
-    position: relative;
-}
-
 /* various */
 html {
     background: #f8f8ff;
@@ -39,7 +34,6 @@ body {
 
 nav {
     background: #f8f8ff;
-    /* overflow-x: hidden; */
 }
 
 a {
@@ -54,6 +48,10 @@ h1 {
 h2 {
     font-family: var(--playfair);
     font-size: 2rem;
+}
+
+button {
+    transition: all 0.15s ease;
 }
 
 /* navigation */
@@ -199,7 +197,7 @@ h2 {
     padding: 7px;
     width: 300px;
     height: 50px;
-    background: rgba(237, 182, 84);
+    background: #ffb347;
     border: none;
     color: #2b2b2b;
     font-size: 1.1rem;
@@ -209,11 +207,13 @@ h2 {
     text-transform: uppercase;
     cursor: pointer;
     outline: none;
-    box-shadow: 3px 3px 3px 0px rgba(0, 0, 0, 0.58);
+    box-shadow: 1px 1px 1px 0px rgba(0, 0, 0, 0.58);
+    border-radius: 20px;
 }
 
 .view-more:hover {
-    background: rgb(214, 159, 64);
+    background: rgb(173, 125, 42);
+    /* color: #f8f8ff; */
 }
 
 .container-button {
@@ -345,14 +345,6 @@ footer {
 
 /* media queries end */
 
-/* .contact-form .message {
-    background: #0da574;
-    padding: 1em;
-    width: 300px;
-    margin-bottom: 10px;
-    color: #fff;
-} */
-
 .form-error {
     display: none;
     color: red;
@@ -369,5 +361,5 @@ textarea {
 }
 
 .score span {
-    color: rgba(237, 182, 84);
+    color: #ffb347;
 }

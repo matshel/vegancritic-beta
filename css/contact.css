@@ -1,14 +1,16 @@
+.hero-contact {
+    height: 50vh;
+    background-image: url("/images/pexels-ella-olsson-1640772.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
 .contact-container {
     display: flex;
     align-items: center;
     height: 100vh;
     max-width: 100%;
-    background-image: url("/images/pexels-ella-olsson-1640772.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    /* background-size: 600px 1000px; */
     margin: 0px auto;
-    /* box-shadow: 10px 29px 25px rgba(0, 0, 0, 0.58); */
 }
 
 .contact-form-container {
@@ -18,10 +20,8 @@
     align-items: center;
     height: 680px;
     width: 700px;
-    background: #fff;
-    /* margin: 0 auto; */
+    /* background: #fff; */
     margin: 0 10px;
-
     box-shadow: 10px 10px 25px 7px rgba(0, 0, 0, 0.58);
     background-image: linear-gradient(to right, rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.99)),
         url("/images/pexels-ella-olsson-1640772.jpg");
@@ -59,7 +59,6 @@
     background: rgb(230, 230, 227);
     border: none;
     font-size: 0.9rem;
-    /* box-shadow: 4px 4px 5px 0px rgba(0, 0, 0, 0.5); */
     margin-top: 10px;
     font-size: 1.1rem;
 }
@@ -73,7 +72,6 @@
     padding-top: 10px;
     margin-top: 10px;
     font-size: 1.1rem;
-    /* box-shadow: 4px 4px 5px 0px rgba(0, 0, 0, 0.5); */
 }
 
 .contact-button {
@@ -91,6 +89,7 @@
     font-weight: 600;
     box-shadow: 4px 4px 5px 0px rgba(0, 0, 0, 0.5);
     cursor: pointer;
+    border-radius: 20px;
 }
 
 .contact-button:hover {
@@ -113,18 +112,9 @@
     padding: 0.8em;
 }
 
-/* .form-error {
-    display: none;
-    color: red;
-    font-size: 0.9rem;
-    text-align: left;
-    margin: 0.125rem 0;
-    padding-left: 10px;
-} */
-
-footer {
+/* footer {
     margin: 0;
-}
+} */
 
 /* media queries */
 @media screen and (min-width: 715px) {

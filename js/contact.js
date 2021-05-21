@@ -75,13 +75,3 @@ function validateEmail(email) {
     return patternMatches;
 }
 
-// this function validates the full name ( minimum 2 characters in first and last name )
-
-// function validateName(fullName) {
-//     const regEx = /^[a-z\u00C0-\u02AB'´`]{2,}\.?\s([a-z\u00C0-\u02AB'´`]{2,}\.?\s?)+$/i;
-//     const patternMatches = regEx.test(fullName);
-//     return patternMatches;
-// }
-
-// document.querySelector("textarea").focus(); //set the focus - cursor at end
-// document.querySelector("textarea").setSelectionRange(0,0); // place cursor at start

@@ -1,3 +1,11 @@
+.hero-details {
+    height: 50vh;
+    /* background-image: url("/images/pexels-ella-olsson-1640772.jpg"); */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url("/images/web_optimized/pexels-olenka-sergienko-3323687.jpg");
+}
+
 .section-details {
     display: flex;
     flex-wrap: wrap;
@@ -172,5 +180,6 @@
     flex-direction: column;
     margin: 20px 10px;
     padding: 2px 20px;
+    border-radius: 20px;
     /* box-shadow: 3px 3px 3px 0px rgba(0, 0, 0, 0.58); */
 }
