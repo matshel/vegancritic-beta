@@ -68,7 +68,7 @@ function createHTML(post) {
                 
                 <p>${post.acf.information}</p>
                 <div class="info-image">
-                  <img src="images/woman-238553_1280.jpg" alt="Round profile picture of Eva Normann" />
+                  <img src="images/web_optimized/eva-normann-profile-image.jpg" alt="Round profile picture of Eva Normann" />
                   <div class="info-image-info">
                       <span class="info-image-name">Eva Normann</span>
                       <span class="info-image-date">${post.acf.date}</span>
@@ -84,6 +84,6 @@ function createNewTitle(newTitle) {
     
     let newPageTitle = newTitle.acf.title;
 
-    document.title = `Vegancritic | ${newPageTitle}`;
+    document.title = `${newPageTitle} | Vegancritic `;
 }
 

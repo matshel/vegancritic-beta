@@ -180,9 +180,10 @@ button {
     transform: rotate(45deg) translate(-5px, -6px);
 }
 
+/* breadcrumb navigation */
+
 .breadcrumb-nav {
     display: flex;
-    /* justify-content: left; */
     align-items: center;
     background: transparent;
 }
@@ -194,6 +195,8 @@ button {
 .breadcrumb-nav ol {
     display: flex;
 }
+
+/* breadcrumb navigation end */
 
 /* navigation end */
 
