@@ -10,14 +10,14 @@ let length = 10;
 
 async function fetchApi(url) {
     try {
-        const data = await fetch(
+        const response = await fetch(
             url + `?per_page=${length}&_embed`
         );
-        const json = await data.json();
+        const getResults = await response.json();
 
         postsContainer.innerHTML = "";
         
-        createHTML(json);
+        createHTML(getResults);
 
     } catch (error) {
         console.log(error);

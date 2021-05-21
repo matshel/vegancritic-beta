@@ -1,39 +1,51 @@
 .hero-details {
+    display: grid;
+    place-items: center;
     height: 50vh;
-    /* background-image: url("/images/pexels-ella-olsson-1640772.jpg"); */
     background-size: cover;
     background-repeat: no-repeat;
     background-image: url("/images/web_optimized/pexels-olenka-sergienko-3323687.jpg");
 }
 
-.section-details {
+.container-hero {
+    margin: 0 7px;
+}
+
+/* .info-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+} */
+
+.details-container {
     display: flex;
     flex-wrap: wrap;
     /* margin: 0 auto; */
     justify-content: center;
-    margin-top: 50px;
+    margin: 50px 10px;
 }
 
-.section-details-two {
+/* .section-details-two {
     padding: 0 30px;
     overflow-y: hidden;
-}
+} */
 
 .post-container-details {
     display: flex;
     max-width: 700px;
-    position: relative;
-    justify-content: center;
-    align-items: center;
-    height: fit-content;
+    /* position: relative; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* height: fit-content; */
 }
 
 .posts {
+    width: 100vw;
     min-width: fit-content;
     height: fit-content;
     border: none;
     /* background: none; */
-    margin: 0 7px;
+    /* margin: 0 7px; */
 }
 
 .posts p {
@@ -54,13 +66,9 @@
 }
 
 .place {
-    margin-top: 0;
+    margin: 20px 0;
     padding-top: 0;
 }
-
-/* .score {
-    margin: 500px 0;
-} */
 
 .score span {
     color: rgba(237, 182, 84);
@@ -77,7 +85,7 @@
     /* border-radius: 20px; */
 }
 
-/* modal test */
+/* modal */
 
 .modal-container {
     display: none;

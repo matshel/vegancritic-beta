@@ -46,6 +46,7 @@ async function fetchApi(url) {
 
     } catch (error) {
         console.log(error);
+        postsContainer.innerHTML = errorMessage("Oops! An error occurred while gathering the post");
     }
 }
 

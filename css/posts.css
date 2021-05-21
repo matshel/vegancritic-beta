@@ -1,4 +1,4 @@
-.hero {
+.hero-posts {
     width: 100vw;
     height: 50vh;
     background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("/images/web_optimized/berry-and-seed.jpg");
@@ -12,28 +12,34 @@
     place-items: center;
 }
 
-.container-hero {
+/* .container-hero {
     max-width: 500px;
-}
+} */
 
-.info-box {
-    background: #f9f9f9;
-    /* background: rgba(255, 255, 255, 0.8); */
+/* .info-box {
+    background: rgba(255, 255, 255, 0.8);
+    background: rgba(255, 255, 255, 0.8);
     padding: 20px;
     max-width: 500px;
     border-radius: 20px;
     min-height: 250px;
-}
+} */
 
-.info-box h1 {
+/* .info-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+} */
+
+/* .info-box h1 {
     font-size: 2.5rem;
-}
+} */
 
-.info-box p {
+/* .info-box p {
     max-width: 300px;
     font-family: var(--roboto);
     padding: 15px 0;
-}
+} */
 
 .posts-container {
     display: flex;
@@ -82,3 +88,8 @@
 }
 
 /* media queries end */
+
+.posts h1,
+h2 {
+    font-family: var(--Quicksand);
+}

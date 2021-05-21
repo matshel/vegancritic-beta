@@ -7,14 +7,14 @@ const id = params.get("id");
 
 // console.log("id");
 
-const url = "https://matshel.dev/vegancritic-api/wp-json/acf/v3/posts/" + id;
+const apiUrl = "https://matshel.dev/vegancritic-api/wp-json/acf/v3/posts/" + id;
 
 
 // fetches REST API
 
 async function getPosts() {
     try {
-        const response = await fetch(url);
+        const response = await fetch(apiUrl);
         const getResults = await response.json();
         detailContainer.innerHTML = "";
         createHTML(getResults);
@@ -59,10 +59,13 @@ function createHTML(post) {
 
         detailContainer.innerHTML +=`
             <div class="posts">
-                <h1 class="title">${post.acf.title}</h1>
+                
+                
                 <div class ="image-details"><div class="post-img"><img id="detailsImg" src="${post.acf.image_preview}" alt="${post.acf.title}" ></div></div>
                 <h2 class="score"><span>${post.acf.stars}</span></h2>
-                <h2 class="place">${post.acf.place}</h2>
+                <h2 class="title">${post.acf.title}</h2>
+                <h2 class="place">From ${post.acf.place}</h2>
+                
                 <p>${post.acf.information}</p>
                 <div class="info-image">
                   <img src="images/woman-238553_1280.jpg" alt="Round profile picture of Eva Normann" />
