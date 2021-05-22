@@ -335,12 +335,6 @@ textarea {
     color: grey;
 }
 
-.success {
-    color: green;
-    border-color: green;
-    background: rgba(0, 255, 0, 0.1);
-}
-
 .error {
     color: red;
     border-color: red;
