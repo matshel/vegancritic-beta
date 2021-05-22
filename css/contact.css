@@ -1,19 +1,10 @@
+/* hero section */
 .hero-contact {
-    height: 50vh;
-    background-image: url("/images/pexels-ella-olsson-1640772.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    display: grid;
-    place-items: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.1)), url("/images/web_optimized/hero-contact.jpg");
 }
+/* hero section end */
 
-.container-hero {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin: 0 auto;
-}
-
+/* contact info section */
 .contact-container {
     display: flex;
     align-items: center;
@@ -119,10 +110,4 @@
     font-size: 1.1rem;
     padding: 0.8em;
 }
-
-/* media queries */
-@media screen and (min-width: 900px) {
-    .info-box p {
-        font-size: 1.3rem;
-    }
-}
+/* contact info section end */

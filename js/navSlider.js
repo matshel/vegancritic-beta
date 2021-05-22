@@ -4,12 +4,10 @@ navSlider = () => {
     const navLinks = document.querySelectorAll(".nav-links li");
     
     // toggle nav
-
     hamBurger.addEventListener("click", () => {
             nav.classList.toggle("nav-active");
 
     // link animation
-
             navLinks.forEach((link, index) => {
                 
                 if (link.style.animation) {
@@ -21,7 +19,6 @@ navSlider = () => {
             });
 
     // animation burger
-    
             hamBurger.classList.toggle("spin");
     });
 

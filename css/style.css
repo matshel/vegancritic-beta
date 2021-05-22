@@ -212,6 +212,18 @@ textarea {
 /* navigation end */
 
 /* hero area */
+.hero-contact,
+.hero-about,
+.hero-details,
+.hero-home,
+.hero-posts {
+    display: grid;
+    place-items: center;
+    height: 50vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
 .container-hero {
     max-width: 350px;
 }

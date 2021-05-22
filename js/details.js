@@ -11,7 +11,6 @@ const apiUrl = "https://matshel.dev/vegancritic-api/wp-json/acf/v3/posts/" + id;
 
 
 // fetches REST API
-
 async function getPosts() {
     try {
         const response = await fetch(apiUrl);
@@ -21,11 +20,8 @@ async function getPosts() {
         createNewTitle(getResults);
 
         // modal
-
         const modalImage = document.querySelector(".modal-image");
-    
         let img = document.querySelector("#detailsImg");
-
         const closeButton = document.querySelector(".close");
 
         img.onclick = function () {
@@ -54,18 +50,14 @@ getPosts();
 
 
 // creates posts
-
 function createHTML(post) {
 
         detailContainer.innerHTML +=`
             <div class="posts">
-                
-                
                 <div class ="image-details"><div class="post-img"><img id="detailsImg" src="${post.acf.image_preview}" alt="${post.acf.title}" ></div></div>
                 <div class="score">${post.acf.stars}</div>
                 <h2 class="title">${post.acf.title}</h2>
                 <h2 class="place">From ${post.acf.place}</h2>
-                
                 <p>${post.acf.information}</p>
                 <div class="info-image">
                   <img src="images/web_optimized/eva-normann-profile-image.jpg" alt="Round profile picture of Eva Normann" />
@@ -79,7 +71,6 @@ function createHTML(post) {
 
 
 // change page title to dish name
-
 function createNewTitle(newTitle) {
     
     let newPageTitle = newTitle.acf.title;

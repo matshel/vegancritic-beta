@@ -30,11 +30,9 @@ function validateForm(event) {
 }
 
 // when submit is pressed run validateForm function
-
 form.addEventListener("submit", validateForm); 
 
 // function to run when the form is submitted
-
 function submitForm(event) {
     event.preventDefault();
     // display a message once the form has been submitted
@@ -44,7 +42,6 @@ function submitForm(event) {
 }
 
 // this function checks if the length is meeting the required length set by len
-
 function checkLength(value, len) { 
     if (value.trim().length > len) {
         return true;
@@ -54,7 +51,6 @@ function checkLength(value, len) {
 }
 
 // this function validates email
-
 function validateEmail(email) {
     const regEx = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
     const patternMatches = regEx.test(email);

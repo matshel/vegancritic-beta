@@ -1,12 +1,10 @@
+/* hero section */
 .hero-about {
-    height: 50vh;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-image: url("/images/pexels-alesia-kozik-7342197.jpg");
-    display: grid;
-    place-items: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.1)), url("/images/web_optimized/hero-about.jpg");
 }
+/* hero section end */
 
+/* about section */
 .about-container {
     display: flex;
     align-items: center;
@@ -45,3 +43,4 @@
     margin-top: 40px;
     width: 100%;
 }
+/* about section end */

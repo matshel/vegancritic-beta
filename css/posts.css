@@ -1,16 +1,7 @@
 /* hero posts */
 .hero-posts {
-    width: 100vw;
-    height: 50vh;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("/images/web_optimized/berry-and-seed.jpg");
-    color: var(--dark);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    margin: 0 auto;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.1)), url("/images/web_optimized/hero-posts.jpg");
     margin-bottom: 50px;
-    display: grid;
-    place-items: center;
 }
 
 .posts-container {

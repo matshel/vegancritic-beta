@@ -9,7 +9,6 @@ let offset = 0;
 
 
 // fetches the REST API
-
 async function fetchApi(url) {
     try {
         const data = await fetch(
@@ -55,7 +54,6 @@ fetchApi("https://matshel.dev/vegancritic-api/wp-json/acf/v3/posts/");
 
 
 // creates posts
-
 function createHTML(posts) {
     posts.forEach(function(post) {
         postsContainer.innerHTML +=`
@@ -71,7 +69,6 @@ function createHTML(posts) {
 
 
 // next and previous button listeners
-
 buttonPrevious.addEventListener("click", () => {
     if (offset >= 1) {
         offset -= 1;

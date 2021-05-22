@@ -1,11 +1,6 @@
 /* hero section */
 .hero-details {
-    display: grid;
-    place-items: center;
-    height: 50vh;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-image: url("/images/web_optimized/pexels-olenka-sergienko-3323687.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.1)), url("/images/web_optimized/hero-details.jpg");
 }
 /* hero section end*/
 
