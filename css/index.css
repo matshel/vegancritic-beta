@@ -12,6 +12,10 @@
     place-items: center;
 }
 
+.info-box {
+    min-height: 250px;
+}
+
 .info-header {
     display: flex;
     align-self: center;
