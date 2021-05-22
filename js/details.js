@@ -62,7 +62,7 @@ function createHTML(post) {
                 
                 
                 <div class ="image-details"><div class="post-img"><img id="detailsImg" src="${post.acf.image_preview}" alt="${post.acf.title}" ></div></div>
-                <h2 class="score"><span>${post.acf.stars}</span></h2>
+                <div class="score">${post.acf.stars}</div>
                 <h2 class="title">${post.acf.title}</h2>
                 <h2 class="place">From ${post.acf.place}</h2>
                 
@@ -70,8 +70,8 @@ function createHTML(post) {
                 <div class="info-image">
                   <img src="images/web_optimized/eva-normann-profile-image.jpg" alt="Round profile picture of Eva Normann" />
                   <div class="info-image-info">
-                      <span class="info-image-name">Eva Normann</span>
-                      <span class="info-image-date">${post.acf.date}</span>
+                      <div class="info-image-name">Eva Normann</div>
+                      <div class="info-image-date">${post.acf.date}</div>
                   </div>
                 </div>
             </div>`;     

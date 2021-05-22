@@ -35,7 +35,7 @@ function createHTML(posts) {
         postsContainer.innerHTML +=`
             <div class="post">
                 <div class="post-img"><img src="${post.acf.image_preview}" alt="${post.acf.title}" </div>
-                <h2 class="score"><span>${post.acf.stars}</span></h2>
+                <div class="score">${post.acf.stars}</div>
                 <h2>${post.acf.title}</h2>
                 <a href="details.html?id=${post.id}"><button class="view-more" aria-label="View more">View more</button></a> 
             </div>`
