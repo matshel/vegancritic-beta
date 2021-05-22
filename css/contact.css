@@ -36,6 +36,7 @@
     background-size: cover;
     background-repeat: no-repeat;
     border-radius: 20px;
+    margin: 0 auto;
 }
 
 #contactForm {
@@ -122,8 +123,8 @@
 }
 
 /* media queries */
-@media screen and (min-width: 715px) {
+/* @media screen and (min-width: 715px) {
     .contact-form-container {
         margin: 0 auto;
     }
-}
+} */
