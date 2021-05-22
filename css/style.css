@@ -225,6 +225,7 @@ textarea {
     border-radius: 20px;
     min-height: 220px;
     font-family: var(--roboto);
+    /* margin: 0 7px; */
 }
 
 .info-box p {
@@ -407,6 +408,15 @@ footer {
 
     footer {
         background-size: 200px 200px;
+    }
+}
+
+@media screen and (min-width: 900px) {
+    .info-box p {
+        font-size: 1.2rem;
+    }
+    .info-box {
+        min-height: 270px;
     }
 }
 
