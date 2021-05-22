@@ -81,7 +81,7 @@
 
 .free-guide-header span {
     text-decoration: underline;
-    color: rgb(29, 175, 29);
+    /* color: rgb(29, 175, 29); */
 }
 
 .free-guide-container input {
