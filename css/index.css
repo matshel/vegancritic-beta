@@ -1,5 +1,4 @@
 /* hero area */
-
 .hero-home {
     width: 100vw;
     height: 50vh;
@@ -13,19 +12,10 @@
     place-items: center;
 }
 
-.hero-container {
-    max-width: 350px;
-    /* margin: 0 10px; */
-}
-
 .info-header {
-    /* width: min-content; */
     display: flex;
     align-self: center;
-    /* justify-content: space-around; */
     align-items: center;
-    /* font-size: 2.5rem; */
-    /* line-height: 1.1; */
 }
 
 .info-header img {
@@ -36,9 +26,6 @@
 
 .info-image {
     display: flex;
-    /* margin-top: 10px; */
-    /* font-family: var(--quicksand); */
-    /* width: 300px; */
 }
 
 .info-image img {
@@ -58,11 +45,9 @@
     padding: 2px 20px;
     border-radius: 20px;
 }
-
 /* hero area end */
 
 /* free guide */
-
 .free-guide-container {
     display: flex;
     flex-direction: column;
@@ -93,6 +78,7 @@
 
 .free-guide-header span {
     text-decoration: underline;
+    color: rgb(29, 175, 29);
 }
 
 .free-guide-container input {
@@ -104,7 +90,6 @@
     border: none;
     font-size: 1.1rem;
     margin: 20px 10px;
-    /* box-shadow: 4px 4px 5px 0px rgba(0, 0, 0, 0.5); */
 }
 
 .free-guide-button {
@@ -140,11 +125,9 @@
 #guideEmail {
     margin: 10px 10px 0 10px;
 }
-
 /* free guide end */
 
 /* latest blog posts */
-
 .blog-latest {
     display: flex;
     flex-wrap: wrap;
@@ -176,7 +159,6 @@
 #button-next i:hover {
     background: var(--exdark);
 }
-
 /* latest blog posts end */
 
 /* media queries */
@@ -214,9 +196,3 @@
     }
 }
 /* media queries end */
-
-/* @media screen and (min-width: 1280px) {
-    .blog-latest {
-        max-width: 1580px;
-    }
-} */

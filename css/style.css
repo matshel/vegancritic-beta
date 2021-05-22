@@ -85,7 +85,6 @@ textarea {
     min-height: 8vh;
     background-color: #f8f8ff;
     font-family: "Poppins", sans-serif;
-    /* width: 100%; */
     margin: 0 auto;
     max-width: 1800px;
     color: var(--exdark);
@@ -197,7 +196,6 @@ textarea {
 }
 
 /* breadcrumb navigation */
-
 .breadcrumb-nav {
     display: flex;
     align-items: center;
@@ -211,10 +209,13 @@ textarea {
 .breadcrumb-nav ol {
     display: flex;
 }
-
 /* breadcrumb navigation end */
-
 /* navigation end */
+
+/* hero area */
+.container-hero {
+    max-width: 350px;
+}
 
 .info-box {
     display: flex;
@@ -225,13 +226,14 @@ textarea {
     border-radius: 20px;
     min-height: 220px;
     font-family: var(--roboto);
-    /* margin: 0 7px; */
 }
 
 .info-box p {
     max-width: 350px;
 }
+/* hero area end*/
 
+/* post */
 .post {
     height: fit-content;
     width: 350px;
@@ -240,11 +242,6 @@ textarea {
     background: #e2e2e2;
     border-radius: 20px;
     text-align: center;
-}
-
-.post h2 {
-    margin-left: 10px;
-    margin-top: 20px;
 }
 
 .post img {
@@ -284,9 +281,9 @@ textarea {
     cursor: pointer;
     outline: none;
 }
+/* posts end */
 
 /* Loader */
-
 .loader-container {
     display: grid;
     place-items: center;
@@ -311,11 +308,9 @@ textarea {
         transform: rotate(360deg);
     }
 }
-
 /* Loader end */
 
 /* ui */
-
 .form-error {
     display: none;
     color: red;
@@ -342,11 +337,9 @@ textarea {
     border-color: red;
     background: rgba(255, 0, 0, 0.1);
 }
-
 /* ui end */
 
 /* footer */
-
 footer {
     display: grid;
     place-content: center;
@@ -376,11 +369,9 @@ footer {
 .copyright {
     font-size: 1.5rem;
 }
-
 /* footer end */
 
 /* media queries */
-
 @media screen and (min-width: 857px) {
     .nav-links {
         position: relative;
@@ -388,7 +379,6 @@ footer {
         flex-direction: row;
         height: 8vh;
         justify-content: flex-end;
-        /* justify-content: right; */
         top: auto;
         right: auto;
         transform: translateX(0);
@@ -419,5 +409,4 @@ footer {
         min-height: 270px;
     }
 }
-
 /* media queries end */
