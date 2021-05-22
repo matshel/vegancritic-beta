@@ -1,3 +1,4 @@
+/* hero section */
 .hero-details {
     display: grid;
     place-items: center;
@@ -6,37 +7,19 @@
     background-repeat: no-repeat;
     background-image: url("/images/web_optimized/pexels-olenka-sergienko-3323687.jpg");
 }
+/* hero section end*/
 
-.container-hero {
-    margin: 0 7px;
-}
-
-/* .info-box {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-} */
-
+/* post section */
 .details-container {
     display: flex;
     flex-wrap: wrap;
-    /* margin: 0 auto; */
     justify-content: center;
     margin: 50px 10px;
 }
 
-/* .section-details-two {
-    padding: 0 30px;
-    overflow-y: hidden;
-} */
-
 .post-container-details {
     display: flex;
     max-width: 700px;
-    /* position: relative; */
-    /* justify-content: center; */
-    /* align-items: center; */
-    /* height: fit-content; */
 }
 
 .posts {
@@ -44,8 +27,6 @@
     min-width: fit-content;
     height: fit-content;
     border: none;
-    /* background: none; */
-    /* margin: 0 7px; */
 }
 
 .posts p {
@@ -70,102 +51,9 @@
     padding-top: 0;
 }
 
-.score span {
-    color: rgba(237, 182, 84);
-}
-
-.score span i {
-    margin-bottom: 5px;
-    margin-right: 4px;
-}
-
 .posts img {
     width: 100%;
     height: 100%;
-    /* border-radius: 20px; */
-}
-
-/* modal */
-
-.modal-container {
-    display: none;
-    place-items: center;
-    position: fixed;
-    width: 100%;
-    height: 100%;
-    z-index: 99;
-    /* overflow: auto; */
-    /* padding-top: 100px; */
-    top: 0;
-    /* left: 0; */
-    background-color: rgba(0, 0, 0, 0.9);
-    /* overflow-y: hidden; */
-}
-
-.modal-content {
-    /* background-color: #fefefe; */
-    /* margin: 0 auto; */
-    /* padding: 50px; */
-    /* border: 1px solid #888; */
-    /* min-width: 600px; */
-    /* min-height: 800px; */
-    max-width: max-content;
-
-    /* background: #2b2b2b; */
-    /* overflow-y: hidden; */
-}
-
-.close {
-    text-transform: uppercase;
-    padding: 15px 20px;
-    background: #feff89;
-    border-radius: 50%;
-    color: #aaaaaa;
-    position: absolute;
-    left: 10vh;
-    top: 10vh;
-    font-size: 28px;
-    font-weight: bold;
-    transition: all 0.2s ease-in-out;
-    cursor: pointer;
-}
-
-.img-modal {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    /* width: 100vh; */
-
-    overflow-x: scroll;
-}
-
-.modal-image {
-    margin: auto;
-    display: block;
-    max-width: 100%;
-    height: 100%;
-    /* max-width: 900px; */
-    padding: 15px;
-    background: #fff;
-}
-
-@media screen and (min-width: 801px) {
-    .modal-content {
-        margin: 5% auto;
-    }
-    .modal-image {
-        width: 900px;
-    }
-}
-
-@media screen and (min-width: 1200px) {
-    .close {
-        display: none;
-    }
-
-    .img-modal {
-        overflow-x: none;
-    }
 }
 
 .info-image {
@@ -189,5 +77,74 @@
     margin: 20px 10px;
     padding: 2px 20px;
     border-radius: 20px;
-    /* box-shadow: 3px 3px 3px 0px rgba(0, 0, 0, 0.58); */
 }
+/* post section */
+
+/* modal */
+.modal-container {
+    display: none;
+    place-items: center;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    z-index: 99;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.9);
+}
+
+.modal-content {
+    max-width: max-content;
+}
+
+.img-modal {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow-x: scroll;
+}
+
+.modal-image {
+    margin: auto;
+    display: block;
+    max-width: 100%;
+    height: 100%;
+    padding: 15px;
+    background: #fff;
+}
+
+.close {
+    text-transform: uppercase;
+    padding: 15px 20px;
+    background: var(--primary);
+    border-radius: 50%;
+    color: var(--dark);
+    position: absolute;
+    left: 10vh;
+    top: 10vh;
+    font-size: 28px;
+    font-weight: bold;
+    transition: all 0.2s ease-in-out;
+    cursor: pointer;
+}
+/* modal end */
+
+/* media queries */
+@media screen and (min-width: 801px) {
+    .modal-content {
+        margin: 5% auto;
+    }
+    .modal-image {
+        width: 900px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .close {
+        display: none;
+    }
+
+    .img-modal {
+        overflow-x: none;
+    }
+}
+/* media queries end */

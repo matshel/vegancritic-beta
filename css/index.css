@@ -36,7 +36,7 @@
 }
 
 .info-image-info {
-    background: rgba(237, 182, 84);
+    background: var(--primary);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -52,7 +52,6 @@
     display: flex;
     flex-direction: column;
     margin: 20px 0;
-    background: #f8f8ff;
     justify-content: center;
     align-items: center;
 }
@@ -109,7 +108,7 @@
 
 .free-guide-button:hover {
     background: rgb(22, 22, 22);
-    color: #f8f8ff;
+    color: var(--background);
 }
 
 .input-name,
@@ -143,7 +142,7 @@
 
 .post-arrows i {
     background: var(--dark);
-    color: #f8f8ff;
+    color: var(--background);
     padding: 1rem;
     cursor: pointer;
     box-shadow: 1px 1px 1px 0px rgba(0, 0, 0, 0.58);
@@ -157,7 +156,7 @@
 
 #button-previous i:hover,
 #button-next i:hover {
-    background: var(--exdark);
+    background: var(--darker);
 }
 /* latest blog posts end */
 
