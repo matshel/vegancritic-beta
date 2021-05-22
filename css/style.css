@@ -86,8 +86,6 @@ textarea {
     min-height: 8vh;
     font-family: "Poppins", sans-serif;
     margin: 0 auto;
-    max-width: 1800px;
-    /* color: var(--dark); */
 }
 
 .logo {
