@@ -1,6 +1,6 @@
 /* hero area */
 
-.hero {
+.hero-home {
     width: 100vw;
     height: 50vh;
     background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("/images/pexels-ella-olsson-1640770.jpg");
