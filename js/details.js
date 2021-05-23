@@ -57,7 +57,7 @@ function createHTML(post) {
                 <h2 class="place">From ${post.acf.place}</h2>
                 <p>${post.acf.information}</p>
                 <div class="info-image">
-                  <img src="images/web_optimized/eva-normann-profile-image.jpg" alt="Round profile picture of Eva Normann" />
+                  <img src="images/eva-normann-profile-image.jpg" alt="Round profile picture of Eva Normann" />
                   <div class="info-image-info">
                       <div class="info-image-name">Eva Normann</div>
                       <div class="info-image-date">${post.acf.date}</div>
