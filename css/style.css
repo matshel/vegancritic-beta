@@ -348,7 +348,7 @@ footer {
     place-content: center;
     height: 220px;
     background: var(--secondary);
-    background-image: url("/images/web_optimized/Vegan.svg");
+    background-image: url("/images/vegan.svg");
     background-repeat: no-repeat;
     background-size: 100px 100px;
     background-position: 10% 1%;
