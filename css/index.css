@@ -24,7 +24,8 @@
 }
 
 .info-image img {
-    width: 16%;
+    width: 70px;
+    height: 70px;
     border-radius: 50%;
     border: 2px solid var(--dark);
     margin: 10px 0;
