@@ -5,15 +5,13 @@ const queryString = document.location.search;
 const params = new URLSearchParams(queryString);
 const id = params.get("id");
 
-// console.log("id");
-
-const apiUrl = "https://matshel.dev/vegancritic-api/wp-json/acf/v3/posts/" + id;
+const Url = "https://matshel.dev/vegancritic-api/wp-json/acf/v3/posts/" + id;
 
 
 // fetches REST API
 async function getPosts() {
     try {
-        const response = await fetch(apiUrl);
+        const response = await fetch(Url);
         const getResults = await response.json();
         detailContainer.innerHTML = "";
         createHTML(getResults);
@@ -51,10 +49,9 @@ getPosts();
 
 // creates posts
 function createHTML(post) {
-
         detailContainer.innerHTML +=`
             <div class="post-details">
-                <div class ="image-details"><div class="post-img"><img id="detailsImg" src="${post.acf.image_preview}" alt="${post.acf.title}" ></div></div>
+                <div class ="image-details"><div class="post-img"><img id="detailsImg" src="${post.acf.image_original}" alt="${post.acf.title}" ></div></div>
                 <div class="score">${post.acf.stars}</div>
                 <h2 class="title">${post.acf.title}</h2>
                 <h2 class="place">From ${post.acf.place}</h2>

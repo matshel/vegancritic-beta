@@ -1,6 +1,6 @@
 /* hero section */
 .hero-details {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.1)), url("/images/web_optimized/hero-details.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.1)), url("/images/hero-details.jpg");
 }
 /* hero section end*/
 

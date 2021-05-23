@@ -253,7 +253,8 @@ textarea {
 }
 
 .post img {
-    width: 100%;
+    width: 330px;
+    height: 495px;
 }
 
 .view-more {
@@ -347,7 +348,7 @@ footer {
     place-content: center;
     height: 220px;
     background: var(--secondary);
-    background-image: url("/images/web_optimized/Asset\ 3.svg");
+    background-image: url("/images/web_optimized/Vegan.svg");
     background-repeat: no-repeat;
     background-size: 100px 100px;
     background-position: 10% 1%;
@@ -412,10 +413,11 @@ footer {
     }
 }
 
-@media screen and (min-width: 1921px) {
+/* @media screen and (min-width: 1921px) {
     .post {
         width: 390px;
+        height: 585px;
     }
-}
+} */
 
 /* media queries end */
