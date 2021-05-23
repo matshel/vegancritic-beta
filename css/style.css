@@ -245,8 +245,7 @@ textarea {
 /* post */
 .post {
     height: fit-content;
-    width: 350px;
-    width: 400px;
+    width: 330px;
     margin: 7px;
     background: var(--secondary);
     border-radius: 20px;
@@ -412,4 +411,11 @@ footer {
         min-height: 270px;
     }
 }
+
+@media screen and (min-width: 1921px) {
+    .post {
+        width: 390px;
+    }
+}
+
 /* media queries end */

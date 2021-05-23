@@ -45,7 +45,13 @@
 
 @media screen and (min-width: 980px) {
     .posts-container {
-        max-width: 1500px;
+        max-width: 1200px;
+    }
+}
+
+@media screen and (min-width: 1921px) {
+    .posts-container {
+        max-width: 1600px;
     }
 }
 /* media queries end */
