@@ -53,7 +53,7 @@ getPosts();
 function createHTML(post) {
 
         detailContainer.innerHTML +=`
-            <div class="posts">
+            <div class="post-details">
                 <div class ="image-details"><div class="post-img"><img id="detailsImg" src="${post.acf.image_preview}" alt="${post.acf.title}" ></div></div>
                 <div class="score">${post.acf.stars}</div>
                 <h2 class="title">${post.acf.title}</h2>
