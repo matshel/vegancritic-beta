@@ -4,9 +4,10 @@
 
 /* variables */
 :root {
-    --playfair: "Playfair Display", serif;
-    --quicksand: "quicksand", sans-serif;
-    --roboto: "Roboto", sans-serif;
+    --primary-font: "Playfair Display", serif;
+    --secondary-font: "Roboto", sans-serif;
+    --tertiary-font: "quicksand", sans-serif;
+
     --primary: #ffb347;
     --secondary: #e2e2e2;
     --background: #f8f8ff;
@@ -39,24 +40,27 @@ a {
     color: var(--dark);
 }
 
+p,
+h1,
+h2,
+h3 {
+    font-family: var(--primary-font);
+}
+
 p {
     max-width: 50em;
-    font-family: var(--playfair);
     font-weight: 400;
 }
 
 h1 {
-    font-family: var(--playfair);
     font-size: 2.5rem;
 }
 
 h2 {
-    font-family: var(--playfair);
     font-size: 2rem;
 }
 
 h3 {
-    font-family: var(--playfair);
     font-size: 1.5rem;
 }
 
@@ -234,7 +238,7 @@ textarea {
     padding: 15px;
     border-radius: 20px;
     min-height: 220px;
-    font-family: var(--roboto);
+    font-family: var(--secondary-font);
 }
 
 .info-box p {
@@ -274,7 +278,7 @@ textarea {
     outline: none;
     box-shadow: 1px 1px 1px 0px rgba(0, 0, 0, 0.58);
     border-radius: 20px;
-    font-family: var(--roboto);
+    font-family: var(--secondary-font);
 }
 
 .view-more:hover {
@@ -412,12 +416,4 @@ footer {
         min-height: 270px;
     }
 }
-
-/* @media screen and (min-width: 1921px) {
-    .post {
-        width: 390px;
-        height: 585px;
-    }
-} */
-
 /* media queries end */

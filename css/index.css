@@ -65,7 +65,7 @@
 }
 
 .free-guide-header {
-    font-family: var(--playfair);
+    font-family: var(--primary-font);
     margin-top: 20px;
     text-align: center;
     font-size: 1.7rem;
@@ -93,7 +93,7 @@
     background: #fff44f;
     border: none;
     text-transform: uppercase;
-    font-family: var(--playfair);
+    font-family: var(--primary-font);
     font-size: 1rem;
     font-weight: 600;
     box-shadow: 2px 2px 2px 0px rgba(0, 0, 0, 0.58);

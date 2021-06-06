@@ -7,18 +7,15 @@ let length = 10;
 
 
 // fetches REST API 
-
 async function fetchApi(url) {
     try {
         const response = await fetch(
             url + `?per_page=${length}&_embed`
         );
         const getResults = await response.json();
-
-        postsContainer.innerHTML = "";
-        
+        postsContainer.innerHTML = ""; 
         createHTML(getResults);
-
+        
     } catch (error) {
         console.log(error);
         postsContainer.innerHTML = errorMessage("Oops! An error occurred while gathering the post");
@@ -29,7 +26,6 @@ fetchApi("https://matshel.dev/vegancritic-api/wp-json/acf/v3/posts/");
 
 
 // creates posts
-
 function createHTML(posts) {
     posts.forEach(function(post) {
         postsContainer.innerHTML +=`
@@ -44,7 +40,6 @@ function createHTML(posts) {
 
 
 // toggles to show more or less posts (100 is max from wp)
-
 togglePosts.addEventListener("click", () => {
 
     if(length === 10) {

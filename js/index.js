@@ -15,33 +15,21 @@ async function fetchApi(url) {
             url + `?per_page=${length}&offset=${offset}&_embed`
         );
         const json = await data.json();
-
         // resets loader
-    
         postsContainer.innerHTML = "";
-        
         createHTML(json);
-
-        // let numberOfPosts = json.length;
-
+        
         // shows hides buttons based on post offsets
-
         if (offset === 0) {
             buttonPrevious.style.display = "none";
         } else {
             buttonPrevious.style.display = "block";
         }
-        // if (json.length < 3) {
-        //     buttonNext.style.display = "none";
-        // } else {
-        //     buttonNext.style.display = "block";
-        // }
         if (offset > json.length + 5) {
             buttonNext.style.display = "none";
         } else {
             buttonNext.style.display = "block";
         }
-
 
     } catch (error) {
         console.log(error);
