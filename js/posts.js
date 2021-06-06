@@ -30,10 +30,10 @@ function createHTML(posts) {
     posts.forEach(function(post) {
         postsContainer.innerHTML +=`
             <div class="post">
-                <div class="post-img"><img src="${post.acf.image_preview}" alt="${post.acf.title}" </div>
+                <div class="post-img"><img src="${post.acf.image_preview}" alt="${post.acf.title}" ></div>
                 <div class="score">${post.acf.stars}</div>
                 <h2>${post.acf.title}</h2>
-                <a href="details.html?id=${post.id}"><button class="view-more" aria-label="View more">View more</button></a> 
+                <a href="details.html?id=${post.id}" class="view-more" aria-label="View more">View more</a> 
             </div>`
     });
 }

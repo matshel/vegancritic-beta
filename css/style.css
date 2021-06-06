@@ -262,6 +262,9 @@ textarea {
 }
 
 .view-more {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     margin: 30px auto;
     padding: 7px;
     width: 300px;
@@ -271,11 +274,9 @@ textarea {
     color: #2b2b2b;
     font-size: 1.1rem;
     font-weight: 800;
-    display: grid;
-    place-items: center;
     text-transform: uppercase;
     cursor: pointer;
-    outline: none;
+    /* outline: none; */
     box-shadow: 1px 1px 1px 0px rgba(0, 0, 0, 0.58);
     border-radius: 20px;
     font-family: var(--secondary-font);
@@ -283,16 +284,6 @@ textarea {
 
 .view-more:hover {
     background: rgb(173, 125, 42);
-}
-
-.container-button {
-    width: 100%;
-    margin: 0 auto;
-}
-
-.container-button a {
-    cursor: pointer;
-    outline: none;
 }
 /* posts end */
 

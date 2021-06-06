@@ -165,21 +165,19 @@
 @media screen and (min-width: 1200px) {
     .free-guide-container {
         flex-direction: row;
+        align-items: baseline;
+        height: 115px;
     }
 
     .free-guide-container form {
         flex-direction: row;
+        align-items: baseline;
     }
 
     .free-guide-container input {
         margin-right: 10px;
         margin-bottom: 0;
     }
-
-    .free-guide-header {
-        margin-top: 0;
-    }
-
     .blog-latest {
         max-width: 1400px;
     }

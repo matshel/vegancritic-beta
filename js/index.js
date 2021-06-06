@@ -49,7 +49,7 @@ function createHTML(posts) {
                 <div class="posts-img"><img src="${post.acf.image_preview}" alt="" data-original="${post.acf.image_original}"></div>
                 <div class="score">${post.acf.stars}</div>
                 <h2>${post.acf.title}</h2>
-                <div class="container-button" aria-label="View more"> <a href="details.html?id=${post.id}"><button class="view-more">View more</button></a></div>
+                <a href="details.html?id=${post.id}" class="view-more" aria-label="View more">View more</a> 
             </div>
         `
     });
@@ -69,4 +69,4 @@ buttonNext.addEventListener("click", () => {
     fetchApi(apiUrl);
 });
 
-fetchApi(apiUrl);
+// fetchApi(apiUrl);
