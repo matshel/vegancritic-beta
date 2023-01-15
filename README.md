@@ -9,6 +9,10 @@ The purpose of this blog is critiquing vegan dishes served at restaurants around
 
 The backend is a headless Wordpress install, hosted on a Hostinger server.
 
+### Image 1
+
 ![image](https://github.com/matshel/vegancritic-beta/blob/main/images/vegancritic.PNG)
+
+### Image 2
 
 ![image](https://github.com/matshel/vegancritic-beta/blob/main/images/blog.png)
