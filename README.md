@@ -1,6 +1,6 @@
 # Project exam 1 - Vegancritic
 
-##About the project
+## About the project
 
 This is my delivery for the exam for the first year studying front end development at Noroff.
 
