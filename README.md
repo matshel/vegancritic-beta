@@ -7,7 +7,7 @@ This is my delivery for the exam for the first year studying front end developme
 The project is a personal blog by "Eva Normann" called Vegancritic.
 The purpose of this blog is critiquing vegan dishes served at restaurants around the world, and writing blog post about it!
 
-The backend is a headless Wordpress install, hosted on a Hostinger server.
+The backend is a headless Wordpress install, hosted on a Hostinger server. The data is fetched through a REST API endpoint.
 
 ### Image 1
 
